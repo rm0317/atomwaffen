@@ -1,0 +1,131 @@
+h1 {
+	font-style: italic;
+	font-size: 3em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+q1 {
+    font-style: italic;
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+q2 {
+	font-style: italic;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+	text-align: center;
+}
+
+p {
+    margin-right: 80px;
+    margin-left: 80px;
+	font-style: normal;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+	text-align: left;
+}
+
+p3 {
+    font-style: normal;
+	font-size: 1.8em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+p5 {
+	font-style: normal;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+p6 {
+    font-style: normal;
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+	text-align: left;
+}
+	
+a:link, a:visited {
+	background-color: rgba(50, 50, 50, 0.5);
+	padding: 14px 25px;
+	margin: 0px -2px;
+	text-align: center; 
+	text-decoration: none;
+	text-shadow: 2px 2px 5px #000000;
+	display: inline-block;
+	font-style: normal;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 14px;
+	animation-name: rehover;
+    animation-duration: 0.15s;
+	animation-timing-function:ease-out;
+}
+
+a:hover, a:active {
+	background-color: rgba(255, 255, 255, 0.3);
+    padding: 14px 25px;
+	margin: 0px -2px;
+    text-align: center; 
+    text-decoration: none;
+	text-shadow: 2px 2px 5px #000000;
+    display: inline-block;
+	font-style: normal;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 14px;
+	animation-name: hover;
+    animation-duration: 0.15s;
+	animation-timing-function:ease-out;
+}
+
+floatr {
+    float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+floatl {
+    float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+fixed {
+    position: sticky;
+}
+
+
+@keyframes hover {
+    from {background-color: rgba(0, 0, 0, 0.3);
+	color: #ffffff;}
+    to {background-color: rgba(255, 255, 255, 0.3);
+	color: #000000;}
+}
+
+@keyframes rehover {
+    from {background-color: rgba(255, 255, 255, 0.3);
+	color: #000000;}
+    to {background-color: rgba(0, 0, 0, 0.3);
+	color: #ffffff;}
+}
