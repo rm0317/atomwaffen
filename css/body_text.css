@@ -60,7 +60,7 @@ p6 {
 }
 	
 a:link, a:visited {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 2px;
 	border-style: solid;
 	border-color: #000000;
@@ -87,7 +87,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 2px;
 	border-style: solid;
 	border-color: #ffffff;
@@ -132,14 +132,14 @@ fixed {
 
 @keyframes hover {
 	from {	
-		background-color: rgba(0, 0, 0, 0.8);
+		background-color: rgba(0, 0, 0, 0.5);
 		color: #ffffff;
 		border-color: #000000;
 		top: 8px;
 	}
 	
 	to {	
-		background-color: rgba(255, 255, 255, 0.8);
+		background-color: rgba(255, 255, 255, 0.5);
 		color: #444444;
 		border-color: #ffffff;
 		top: 20px;
@@ -148,14 +148,14 @@ fixed {
 
 @keyframes rehover {
 	from {
-		background-color: rgba(255, 255, 255, 0.8);
+		background-color: rgba(255, 255, 255, 0.5);
 		color: #444444;
 		border-color: #ffffff;
 		top: 20px;
 	}
 	
 	to {
-		background-color: rgba(0, 0, 0, 0.8);
+		background-color: rgba(0, 0, 0, 0.5);
 		color: #ffffff;
 		border-color: #000000;
 		top: 8px;
