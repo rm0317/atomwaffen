@@ -129,14 +129,12 @@ fixed {
 		background-color: rgba(0, 0, 0, 0.3);
 		color: #ffffff;
 		top: 8px;
-		border-color: rgba(255, 255, 255, 1);
 	}
 	
 	to {	
 		background-color: rgba(255, 255, 255, 0.3);
 		color: #000000;
 		top: 20px;
-		border-color: rgba(0, 0, 0, 1);
 	}
 }
 
@@ -145,10 +143,11 @@ fixed {
 		background-color: rgba(255, 255, 255, 0.3);
 		color: #000000;
 		top: 20px;
-		border-color: rgba(0, 0, 0, 1);}
+	}
+	
 	to {
 		background-color: rgba(0, 0, 0, 0.3);
 		color: #ffffff;
 		top: 8px;
-		border-color: rgba(255, 255, 255, 1);}
+	}
 }
