@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title>Shop</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/body_text.css">
+		<link rel="stylesheet" type="text/css" href="css/videoBG.css">
+	</head>
+	
+	<body>
+	
+	<audio autoplay="true" loop="loop">
+	<source src="ussr.mp3" type="audio/mp3">
+	</audio>
+	
+	<video id="videoBG" autoplay="true" loop="loop">
+		<source src="background/BG_3.webm" type="video/webm">
+		<source src="background/BG_3.mp4" type="video/mp4">
+	</video>
+	
+		<center>
+		
+			<a href="index.html">Startseite</a>
+			<a href="h_and_a-bomb.html">H-Bombe</a>
+			<a href="hiroshima.html">Hiroshima</a>
+			<a href="nagasaki.html" >Nagasaki</a>
+			<a href="contact.html" >Kontakt</a>
+			
+			</br></br>
+		
+
+			<h1>Shop</h1>
+
+			
+			</br></br>
+			
+			<form action="mailto:kulikovskyy92@gmail.com" method="post" enctype="text/plain">
+	  <table border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td align="right"><p5>Anrede:</p5></td>
+      <td>
+        <select name="Geschlecht">
+          <option value="0"><p5>Bitte wählen</p5></option>
+          <option value="maennlich"><p5>Herr</p5></option>
+          <option value="weiblich"><p5>Frau</p5></option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><p5>Vorname:</p5></td>
+      <td>
+        <input maxlength="50" name="Vorname" size="45" type="text" />
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><p5>Nachname:</p5></td>
+      <td>
+        <input maxlength="50" name="Nachname" size="45" type="text" />
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><p5>Strasse:</p5></td>
+      <td>
+        <input maxlength="50" name="Strasse" size="45" type="text" />
+      </td>
+    </tr>
+    <tr>
+    <td align="right"><p5>PLZ:</p5></td>
+    <td>
+      <input maxlength="5" name="PLZ" size="7" type="text" />
+    </td>
+    </tr>
+    <tr>
+      <td align="right"><p5>Ort:</p5></td>
+      <td>
+        <input maxlength="50" name="Ort" size="45" type="text" />
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><p5>Land:</p5></td>
+      <td>
+        <input name="Land" size="45" type="text" value="Deutschland" />
+      </td>
+    </tr>
+    <tr>
+      <td align="right"><p5>Email:</p5></td>
+      <td>
+        <input maxlength="80" name="Email" size="45" type="text" />
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" value="Absenden" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+</form>
+		</center>
+	</body>
+</html>
